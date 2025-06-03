@@ -118,7 +118,7 @@ $breakpoints: (
 =============================================*/
 
 $spacing: (
-  none: 0rem,
+  none: 0,
   xxxs: 0.25rem, /* 4px */  
   xxs: 0.5rem, /* 8p */  
   xs: 0.75rem, /* 12px */
@@ -131,21 +131,16 @@ $spacing: (
 ) !default;
 
 $line-heights: (
-  none: 0rem,
+  none: 0,
   xxxs: 1.125rem,
   xxs: 1.3125rem,
   xs: 1.5rem,
   sm: 1.875rem,
-  md:2.25rem,
-  lg:3.1875rem,
-  xl:4.5rem,
-  xxl:5.625rem,
-  xxxl:6rem
+  md: 2.25rem,
+  lg: 3.1875rem,
+  xl: 4.5rem,
+  xxl: 5.625rem,
+  xxxl: 6rem
 ) !default;
-
-$shadows: (
-  base: 0px 4px 11px rgba(157, 157, 157, 0.21)
-);
-
 
 /*=====  End of Spacing  ======*/

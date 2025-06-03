@@ -1,3 +1,5 @@
+@use 'sass:map';
+@use 'variables' as *;
 /*=============================================
 =            Foundation - colors              =
 =============================================*/
@@ -45,7 +47,7 @@ $form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
 =============================================*/
 $appbar-bg-color: var(--dse-appbar-bg-color, $white) !default;
 $appbar-text-color: var(--dse-appbar-bg-color, $dark) !default;
-$appbar-elevation: var(--dse-appbar-elevation, $shadows) !default;
+
 
 
 /*=============================================
@@ -53,5 +55,5 @@ $appbar-elevation: var(--dse-appbar-elevation, $shadows) !default;
 =============================================*/
 $fab-bg-color: var(--dse-fab-bg-color, $green) !default;
 $fab-bg-color-hover: var(--dse-fab-bg-color, $green-light) !default;
-$fab-elevation: var(--dse-fab-elevation, $shadows) !default;
+// $fab-elevation: var(--dse-fab-elevation, map.get($shadows, 'base')) !default;
 $fab-bg-focus-color: var(--dse-fab-elevation, $green-light) !default;

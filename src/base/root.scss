@@ -1,3 +1,5 @@
+@use '../foundation/variables' as *;
+
 :root {
   --dse-body-text-color: #{$dark};
   --dse-body-bg-color: #{$white};

@@ -1,3 +1,5 @@
+@use 'sass:map';
+@use 'variables' as *;
 /*=============================================
 =            Foundation - Typography          =
 =============================================*/
@@ -51,6 +53,6 @@ $h-6-font-weight: var(--dse-h6-text-weight, $fw-light) !default;
 =            Title font sizes                 =
 =============================================*/
 $title-font-size: var(--dse-title-font-size, $h-1) !default;
-$title-text-spacing: var(--dse-title-text-spacing, #{map.get($spacing, 'lg')}) !default;
-$title-line-height: var(--dse-title-line-height, #{map.get($line-heights, 'xxxl')}) !default;
+$title-text-spacing: var(--dse-title-text-spacing, map.get($spacing, 'lg')) !default;
+$title-line-height: var(--dse-title-line-height, map.get($line-heights, 'xxxl')) !default;
 

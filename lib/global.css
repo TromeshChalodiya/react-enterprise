@@ -1,0 +1,192 @@
+/*------------------------------------
+    TABLE OF CONTENTS
+------------------------------------*/
+/*=============================================
+ =                   Foundations              =
+=============================================*/
+/* ================================
+    #param
+================================== */
+/**
+* TABLE OF CONTENT
+*
+*
+*
+*
+* COLORS
+* Brand Colors..............These are the main brand colors. They will be used the most
+* Neutral Colors............White and black, gray scale, secondary colors
+* Utility Colors............Others colors to represent states: info, warning, success etc.
+*
+*
+*
+*
+* TYPOGRAPHY
+* Font Families............The fonts used in the design systems.
+* Font Weights.............Font weights
+* Font Sizes...............Font sizing for body text, paragraphs, inputs
+* Heading Sizes............Font sizing for page heading
+*
+*
+*
+* BREAKPOINTS
+* Brekpoints...............Global responsive breakpoints definations.
+*/
+/*=======================================
+=                 Colors                =   
+========================================*/
+/* Brand Colors */
+/* Utility Colors */
+/*=====  End of Colors  ======*/
+/*=============================================
+=                 Typography                  =
+=============================================*/
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+/* Font Family */
+/* 1 */
+/* 2 */
+/* Font sizes */
+/* 12px */
+/* 14px */
+/* 16px */
+/* 18px */
+/* 24px */
+/* Heading font sizes */
+/* 22px */
+/* 22px */
+/* 16px */
+/* 18px */
+/* 12px */
+/* 12px */
+/* Font weights */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoints                      =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/*=====  End of Spacing  ======*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=                 Global text colors          =
+=============================================*/
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+/*=============================================
+=                 Forms                       =
+=============================================*/
+/*=============================================
+=                 App bar colors              =
+=============================================*/
+/*=============================================
+=                 Fab colors              =
+=============================================*/
+/*=============================================
+=            Foundation - Typography          =
+=============================================*/
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+*/
+/*=============================================
+=            Body font family                  =
+=============================================*/
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+/*=============================================
+=            Heading font sizes              =
+=============================================*/
+/*=============================================
+=            Heading font weights             =
+=============================================*/
+/*=============================================
+=            Title font sizes                 =
+=============================================*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * Helpful reusable function-like things that will be used to implement
+ * styles for components.
+ *
+*/
+.body {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+@media (min-width: 48rem) {
+  .body {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+}
+@media (min-width: 64rem) {
+  .body {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 80rem) {
+  .body {
+    font-size: 1.2rem;
+  }
+}
+
+/*=============================================
+=            Section Base                     =
+=============================================*/
+/*=============================================
+=               CSS RESETS                    =
+=============================================*/
+/**
+ *
+ * The normalize.css npm package improves browser rendering consistency.
+ * https://necolas.github.io/normalize.css/
+ */
+:root {
+  --dse-body-text-color: #1d1f22;
+  --dse-body-bg-color: #fff;
+  --dse-btn-primary-color: #fff;
+  --dse-btn-primary-bg: #5ece7b;
+  --dse-btn-primary-bg-hover: #9ee2b0;
+  --dse-btn-secondary-color: #fff;
+  --dse-btn-secondary-bg: #1d1f22;
+  --dse-form-color: #1d1f22;
+  --dse-form-bg: #fff;
+  --dse-form-error-color: #d12727;
+  --dse-form-error-border: #d12727;
+  --dse-form-border-focus-color: #5ece7b;
+  --dse-body-font-size: 1rem;
+  --dse-body-font-weight: 400;
+  --dse-h1-font-size: 1.375rem;
+  --dse-h2-font-size: 1.375rem;
+  --dse-h3-font-size: 1rem;
+  --dse-h4-font-size: 1.125rem;
+  --dse-h5-font-size: 0.75rem;
+  --dse-h6-font-size: 0.75rem;
+  --dse-h1-font-weight: 500;
+  --dse-h2-font-weight: 500;
+  --dse-h3-font-weight: 500;
+  --dse-h4-font-weight: 400;
+  --dse-h5-font-weight: 400;
+  --dse-h6-font-weight: 300;
+}
